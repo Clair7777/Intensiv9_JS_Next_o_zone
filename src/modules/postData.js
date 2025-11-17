@@ -2,7 +2,6 @@ const postData = () => {
   return fetch("http://localhost:3000/goods", {
     method: "POST",
     body: JSON.stringify({
-      id: 23,
       title: "Ведьмак 3",
       price: 3000,
       sale: true,
